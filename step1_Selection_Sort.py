@@ -12,7 +12,7 @@ def selection_sort(arr): #function to perform selection sort
         for j in range(i + 1, n): #traverse through the unsorted elements
             if arr[j] < arr[min_index]: #if the current element is smaller than the minimum element
                 min_index = j #update the minimum index
-        arr[i], arr[min_index] = arr[min_index], arr[i] #swap the minimum element with the current element
+        arr[i], arr[min_index] = arr[min_index], arr[ i] #swap the minimum element with the current element
     return arr
 # Example usage
 arr = [13, 46, 24, 52, 20, 9]
